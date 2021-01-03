@@ -172,3 +172,16 @@ Each URI Circle accepts the responsibility:
 Members of the URI Global Council and staff meeting near San Francisco, CA, in May 2006.
 
 For more information, visit the URI website at [www.uri.org](https://www.uri.org).
+
+---
+
+## Sources
+
+All photos were freely shared with the author through URI-related mailing lists.
+
+Content sourced from
+
+* [URI Charter](https://www.uri.org/what-we-do/charter)
+* Author's field notes as a participant in URI conferences, conference calls,
+and e-mail discussions
+* Bishop William E. Swing, _The Coming United Religions_, CoNexus Press: 1998.

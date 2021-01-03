@@ -4,7 +4,8 @@ permalink: /articles
 title: Articles and Presentations
 ---
 
-These pieces were originally written for publication or presentation elsewhere. They are collected here as archives in case the original source disappears.
+These pieces were originally written for publication or presentation elsewhere.
+They are collected here as archives in case the original source disappears.
 
 {: .mb-1 }
 **[Why and How to Join the United Religions Initiative](/articles/why-and-how-join-uri)** (June 2006)
