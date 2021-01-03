@@ -4,6 +4,7 @@ permalink: /articles/why-and-how-join-uri
 title: Why and How to Join the United Religions Initiative
 ---
 
+{: .bg-info .rounded .p-3 .text-light}
 A presentation for NAIN Connect 2006 in Vancouver, British Columbia, Canada:
 Learn the steps for a new or existing group or organization to become a member
 of the United Religions Initiative (URI).
