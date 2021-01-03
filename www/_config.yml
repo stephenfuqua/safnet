@@ -1,5 +1,5 @@
 # Site settings
-title: Stephen A. Fuqua (safnet) - Blog
+title: safnet
 author: Stephen A. Fuqua
 email: stephen@safnet.com
 description: >
@@ -34,5 +34,5 @@ markdown: kramdown
 #   - vendor/gems/
 #   - vendor/ruby/
 
-# include:
-# - _pages
+include:
+- _pages
