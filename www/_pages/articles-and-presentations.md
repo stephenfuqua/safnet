@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /articles
+permalink: /articles/
 title: Pre-Blog Articles and Presentations
 ---
 
