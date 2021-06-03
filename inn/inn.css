@@ -49,6 +49,11 @@ a:hover {
 .dead-link, .dead-link:hover {
     color: silver !important;
     border-bottom: none !important;
+    text-decoration: line-through !important;
+}
+
+.post {
+    margin-bottom: 2rem;
 }
 
 /* TAG OVERRIDES */
