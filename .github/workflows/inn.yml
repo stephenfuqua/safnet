@@ -5,6 +5,7 @@ on:
       - 'inn/**'
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   publish-inn:
