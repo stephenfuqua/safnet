@@ -13,7 +13,6 @@ h1.title {
 h1.title b {
 	display: none;
 }
-
 a {
 	color: #48b !important;
 	text-decoration: none !important;
@@ -27,7 +26,6 @@ a:hover {
 	border-bottom: 1px solid #009;
 }
 
-
 .description {
 	padding: 2px 20px 2px 20px;
 	color: #fff;
@@ -35,452 +33,38 @@ a:hover {
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
 }
-
-.entry ul, #sidebar ul {
+#sidebar ul {
     list-style: none;
     margin-left: 0;
     padding-left: 0;
 }
-
-.entry ul li:before, #sidebar ul li:before {
+#sidebar ul li:before {
 	content: "\00BB \0020";
 }
-
 .dead-link, .dead-link:hover {
-    color: silver !important;
-    border-bottom: none !important;
-    text-decoration: line-through !important;
+    color: rgb(114, 114, 114) !important;
+	border-bottom: 1px dotted #999;
 }
-
 .post {
     margin-bottom: 2rem;
 }
-
 h2 {
     font-size: 1.75rem !important;
 }
 h3 {
     font-size: 1.25rem !important;
 }
-
-/* TAG OVERRIDES */
-
-
-/* h1, h2, h3 {
-	font-family: "Trebuchet MS", "Lucida Grande", "Calibri", Verdana, Arial, Sans-Serif;
-	font-weight: bold;
+h4 {
+    font-size: 1.1rem !important;
 }
-h1.date {
-	margin-bottom: 15px;
-	color: #CFCFC2;
-	font-size: 1.5em;
-	text-transform: uppercase;
-}
-h1 {
-	font-size: 2em;
-}
-h2 {
-	font-size: 1.5em;
-}
-h3 {
-	margin-top: 12px;
-}
-a {
-	color: #48b;
-	text-decoration: none;
-	border-bottom: 1px dotted #999;
-}
-a:visited {
-	color: #000;
-}
-a:hover {
-	color: #009;
-	border-bottom: 1px solid #009;
-}
-ul {
-	margin: 12px 30px 12px 30px;
-}
-cite {
-	font-style: normal;
-} */
-
-
-/* LAYOUT */
-/* #page {
-	margin: 0;
-	padding: 0;
-	border: none;
-}
-#header {
-	padding-top: 10px;
-	background-color: white;
-	width: 700px;
-	margin: 15px auto 0 auto;
-	position: relative;
-
-}
-#homelink {
-	position: absolute;
-	top: 0px;
-	right: 20px;
-	height: 20px;
-}
-#mid {
-	position: relative;
-	background-color: white;
-	width: 700px;
-	margin: 0 auto 0 auto;
-
-}
-#content {
-	background-color: white;
-	margin: 0;
-	padding: 20px;
-}
-#sidebar {
-	background-color: white;
-	float: left;
-	width: 170px;
-	font-size: .9em;
-	margin-bottom: 10px;
-}
-#footer {
-	background-color: white;
-	border-top: 1px solid #777;
-	width: 660px;
-	margin: 10px auto 0 auto;
-	clear: left;
-	text-align: left;
-	font-size: .9em;
-	color: #777;
-	padding-top: 15px;
-}
-#footer p {
-	margin-bottom: 15px;
-}
-#wordpress {
-	margin-top: 12px;
-}
-
-
- HEADER
-
-
-
-
-
-#header h1 {
-	height: 54px;
-	margin: 0px;
-	padding: 0px;
-	cursor: pointer;
-}
-#header h1 b {
-	display: none;
-}
-.description {
-	padding: 2px 20px 2px 20px;
-	color: #fff;
-	background-color: #366;
-	border-top: 1px solid #000;
-	border-bottom: 1px solid #000;
-}
-hr {
-	display: none;
-}
-
-
-
-/* ENTRIES
-.narrowcolumn {
-	width: 470px;
-	padding-right: 20px;
-	float: left;
-}
-.widecolumn {
-/*	width: 450px;
-	margin: 30px auto 0 125px;
-	padding: 0; /
-	width: 470px;
-	padding-right: 20px;
-	float: left;
-}
-.widecolumn .post {
-	margin-top: 15px;
-}
-.entry p {
-	line-height: 1.5em;
-	margin: 12px 0 12px 0;
-}
-.entry p a:visited, .navigation a:visited {
-	color: #b85b5a;
-	border-bottom: 1px solid transparent;
+.author {
+    font-weight: bold;
 }
 .postdate {
-	font-family: Arial, Helvetica, Sans-Serif;
-	font-size: 0.9em;
-	color: #777;
-	margin: 2px 0 10px 0;
+    margin-top: -1rem;
 }
-.postmetadata {
-	text-align: center;
+blockquote {
+    margin-left: 1rem;
+    border-left: 2px solid silver;
+    padding-left: 1rem;
 }
-.postmetadata a {
-	border-bottom: none;
-}
-.postmetadata a:hover {
-	border-bottom: 1px solid #009;
-}
-.post {
-	clear: left;
-	margin-bottom: 30px;
-}
-.post h2 a
-{
-	/* IE ONLY underscore hack /
-	_font-size: 1.3em;
-}
-.excerpt {
-	width: 80%;
-	padding: 5px;
-	background-color: #e7e7df;
-	margin: 30px auto 30px auto;
-}
-.excerpt p {
-	margin-bottom: 10px;
-}
-.alignleft {
-	margin: 0px;
-	float: left;
-	width: 40%;
-	text-align: left;
-}
-.alignright {
-	float: right;
-	width: 50%;
-	text-align: right;
-}
-.widecolumn .postmetadata {
-	font-size: .9em;
-	color: #777;
-}
-.widecolumn h2 {
-	padding-top: 30px;
-}
-.pagetitle {
-	margin-bottom: 15px;
-}
-#archivenav {
-	height: 3em;
-}
-
-
-/* EVERYTHING BELOW IS STRAIGHT FROM THE KUBRICK THEME FOR WORDPRESS /
-/* Begin Lists
-
-	Special stylized non-IE bullets
-	Do not work in Internet Explorer, which merely default to normal bullets. /
-
-html>body .entry ul {
-	margin-left: 0px;
-	padding: 0 0 0 30px;
-	list-style: none;
-	padding-left: 10px;
-	text-indent: -10px;
-}
-
-html>body .entry li {
-	margin: 7px 0 8px 10px;
-}
-
-.entry ul li:before, #sidebar ul li:before {
-	content: "\00BB \0020";
-}
-
-.entry ol {
-	padding: 0 0 0 35px;
-	margin: 0;
-	}
-
-.entry ol li {
-	margin: 0;
-	padding: 0;
-	}
-
-.postmetadata ul, .postmetadata li {
-	display: inline;
-	list-style-type: none;
-	list-style-image: none;
-}/*
-#sidebar ul li {
-	list-style-type: none;
-	list-style-image: none;
-	margin-bottom: 15px;
-}
-/
-#sidebar p {
-	margin: 5px 0 8px;
-	}
-#sidebar input {
-	border: 1px solid #666;
-	font-size: smaller;
-	width: 140px;
-	margin: 5px 0 5px 0;
-}
-#sidebar .btn {
-	width: auto;
-	margin: 0;
-	border: 1px outset #c0c0c0;
-}
-
-#sidebar ul , #sidebar ol {
-	margin: 5px 0 0 0;
-	list-style: none;
-	padding-left: 1em;
-	text-indent: -0.9em;
-}
-
-#sidebar ul ul, #sidebar ul ol {
-	margin: 0 0 0 10px;
-	}
-
-ol li, #sidebar ul ol li {
-	list-style: decimal outside;
-}
-
-#sidebar ul li, #sidebar ol li {
-	margin: 5px 0 0 0;
-	padding: 0;
-}
-
-	/* SFUQUA 2005-11-26 /
-	#sidebar ul p.ppnews {
-		display: list-item;
-		margin: 3px 0 0;
-		padding: 0;
-	}
-	#sidebar ul p.ppnews:before {
-		content: "\00BB \0020";
-	}
-
-	#sidebar h2 {
-		font-size: 1.3em;
-		padding-right: 8px;
-		background: url(/web/20061130123928im_/http://www.interfaithnews.net/wp/images/greensquare3.gif) center right no-repeat;
-		margin-top: 20px;
-	}
-
-	#mainbar {
-		margin-top: 20px;
-		padding: 1px 7px 1px 7px;
-		background-color: #E9E9DF;
-	}
-	#sidebar p.postdate {
-		margin-top: 0;
-		margin-bottom: 1px;
-	}
-	#sidebar p.elsewhere {
-		margin-top: 3px;
-		margin-bottom: 3px;
-	}
-	#blogroll h2 {
-		font-size: 1em;
-		background-image: none;
-	}
-	/* END SFUQUA /
-
-
-/* End Entry Lists /
-
-
-
-/* Begin Form Elements /
-#searchform {
-	margin: 10px auto;
-	padding: 5px 3px;
-	text-align: center;
-	}
-
-#sidebar #searchform #s {
-	width: 115px;
-	padding: 2px;
-	}
-
-#sidebar #searchsubmit {
-	padding: 1px;
-	}
-
-.entry form { /* This is mainly for password protected posts, makes them look better. /
-	text-align:center;
-	}
-
-select {
-	width: 130px;
-	}
-
-#commentform input {
-	width: 170px;
-	padding: 2px;
-	margin: 5px 5px 1px 0;
-	}
-
-#commentform textarea {
-	width: 100%;
-	padding: 2px;
-	}
-
-#commentform #submit {
-	margin: 0;
-	float: right;
-	}
-/* End Form Elements */
-
-
-
-/* Begin Comments/
-.commentlist {
-	padding: 0;
-	text-align: justify;
-	margin-bottom: 30px;
-	}
-
-.commentlist li {
-	margin: 15px 0 3px;
-	padding: 5px 10px 3px;
-	list-style: none;
-	background-color: #fff;
-	}
-
-.alt {
-	margin: 0;
-	padding: 10px;
-	background-color: #fff;
-	}
-.commentlist .alt {
-	background-color: #e7e7df;
-}
-.commentlist p {
-	margin: 10px 5px 10px 0;
-	}
-
-#commentform p {
-	margin: 5px 0;
-	}
-desc
-.nocomments {
-	text-align: center;
-	margin: 0;
-	padding: 0;
-	}
-
-.commentmetadata {
-	margin: 0;
-	display: block;
-	}
-
-/* End Comments /
-
-/* InTouch Form /
-input {
-	border: 1px outline gray;
-} */
