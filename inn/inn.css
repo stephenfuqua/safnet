@@ -13,7 +13,6 @@ h1.title {
 h1.title b {
 	display: none;
 }
-
 a {
 	color: #48b !important;
 	text-decoration: none !important;
@@ -27,7 +26,6 @@ a:hover {
 	border-bottom: 1px solid #009;
 }
 
-
 .description {
 	padding: 2px 20px 2px 20px;
 	color: #fff;
@@ -35,34 +33,38 @@ a:hover {
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
 }
-
-.entry ul, #sidebar ul {
+#sidebar ul {
     list-style: none;
     margin-left: 0;
     padding-left: 0;
 }
-
-.entry ul li:before, #sidebar ul li:before {
+#sidebar ul li:before {
 	content: "\00BB \0020";
 }
-
 .dead-link, .dead-link:hover {
-    color: silver !important;
-    border-bottom: none !important;
-    text-decoration: line-through !important;
+    color: rgb(114, 114, 114) !important;
+	border-bottom: 1px dotted #999;
 }
-
 .post {
     margin-bottom: 2rem;
 }
-
 h2 {
     font-size: 1.75rem !important;
 }
 h3 {
     font-size: 1.25rem !important;
 }
-
+h4 {
+    font-size: 1.1rem !important;
+}
 .author {
     font-weight: bold;
+}
+.postdate {
+    margin-top: -1rem;
+}
+blockquote {
+    margin-left: 1rem;
+    border-left: 2px solid silver;
+    padding-left: 1rem;
 }
