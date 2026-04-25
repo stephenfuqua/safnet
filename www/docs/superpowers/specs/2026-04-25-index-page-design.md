@@ -1,6 +1,6 @@
 # index.html Redesign Spec
 
-**Date:** 2026-04-25  
+**Date:** 2026-04-25
 **Status:** Approved
 
 ## Goal
@@ -26,7 +26,7 @@ Single-column, top-to-bottom:
 - Dark background bar; use `#1b1b1d` as starting value, fine-tune by inspecting blog.safnet.com with browser devtools
 - Left: circular profile/logo image from `https://blog.safnet.com/img/BHCU-logo-safnet-small-darktheme.webp`
 - Center-left: "Stephen A. Fuqua" as styled text link to `/`
-- Nav links: "Blog" (→ `https://blog.safnet.com`) and "About" (→ `/about`)
+- Nav links: "Blog" (→ `https://blog.safnet.com`) and "About" (→ `https://blog.safnet.com/about`)
 - Right: GitHub icon link and LinkedIn icon link
 - Icons: inline SVG (no external icon library)
 - Matches the visual style of the blog header shown in the reference screenshot
@@ -59,8 +59,7 @@ Single-column, top-to-bottom:
 
 - Dark background, white text (matches header)
 - Copyright © 2026 Stephen A. Fuqua, link to safnet.com
-- Creative Commons Attribution-ShareAlike 3.0 license link
-- MIT license link (→ `/LICENSE`)
+- Creative Commons Attribution-ShareAlike 4.0 International license, link to https://creativecommons.org/licenses/by-sa/4.0/
 
 ---
 
