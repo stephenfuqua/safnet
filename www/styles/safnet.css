@@ -230,3 +230,35 @@ li {
 .header-social a:hover {
     color: white;
 }
+
+/* =====================
+   Header: Responsive + Accessibility
+   ===================== */
+.header-social svg {
+    flex-shrink: 0;
+}
+
+.header-social a {
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+.header-brand:focus-visible,
+.header-nav a:focus-visible,
+.header-social a:focus-visible {
+    outline: 2px solid white;
+    outline-offset: 2px;
+}
+
+@media (max-width: 768px) {
+    .header-inner {
+        gap: 1rem;
+        padding: 0.5rem 1rem;
+        flex-wrap: wrap;
+    }
+
+    .header-nav {
+        gap: 0.75rem;
+        font-size: 0.85rem;
+    }
+}
