@@ -278,7 +278,6 @@ li {
     left: 1rem;
     color: white;
     text-shadow: 0.15rem 0.15rem 0.4rem black;
-    text-transform: lowercase;
 }
 
 .hero-text h1 {
@@ -289,6 +288,7 @@ li {
 .hero-text p {
     margin: 0;
     font-size: 1.1rem;
+    text-transform: lowercase;
 }
 
 /* =====================
