@@ -269,13 +269,15 @@ li {
 .hero {
     background: url('/images/mexicanHat.png') center / cover no-repeat;
     height: 250px;
-    position: relative;
+    display: flex;
+    align-items: flex-end;
 }
 
 .hero-text {
-    position: absolute;
-    bottom: 1rem;
-    left: 1rem;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1.5rem 1rem;
     color: white;
     text-shadow: 0.15rem 0.15rem 0.4rem black;
 }
