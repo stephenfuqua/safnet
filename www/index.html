@@ -84,8 +84,9 @@
             if (items.length === 0) throw new Error('no items');
             const ul = document.createElement('ul');
             items.forEach(item => {
-                const title = item.querySelector('title').textContent;
-                const link = item.querySelector('link').textContent;
+                const title = item.querySelector('title')?.textContent ?? '(untitled)';
+                const link = item.querySelector('link')?.textContent;
+                if (!link) return;
                 const li = document.createElement('li');
                 const a = document.createElement('a');
                 a.href = link.trim();
