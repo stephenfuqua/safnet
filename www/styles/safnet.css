@@ -262,3 +262,31 @@ li {
         font-size: 0.85rem;
     }
 }
+
+/* =====================
+   Hero Banner
+   ===================== */
+.hero {
+    background: url('/images/mexicanHat.png') center / cover no-repeat;
+    height: 250px;
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    color: white;
+    text-shadow: 0.15rem 0.15rem 0.4rem black;
+    text-transform: lowercase;
+}
+
+.hero-text h1 {
+    font-size: 2rem;
+    margin: 0 0 0.25rem 0;
+}
+
+.hero-text p {
+    margin: 0;
+    font-size: 1.1rem;
+}
