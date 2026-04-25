@@ -313,3 +313,36 @@ li {
 .content-section ul {
     padding-left: 1.25rem;
 }
+
+/* =====================
+   Site Footer
+   ===================== */
+.site-footer {
+    background-color: #1b1b1d;
+    color: #e0e0e0;
+    margin-top: 2rem;
+}
+
+.footer-inner {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    font-size: 0.875rem;
+}
+
+.site-footer a {
+    color: #90b8f8;
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
+}
+
+.site-footer p {
+    margin-bottom: 0.75rem;
+}
+
+.site-footer p:last-child {
+    margin-bottom: 0;
+}
