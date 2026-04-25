@@ -72,5 +72,32 @@
             <p>Copyright &copy; 2026 <a href="https://www.safnet.com">Stephen A. Fuqua</a>. Content and design are published under the Creative Commons <a href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</a> License.</p>
         </div>
     </footer>
+    <script>
+    (async function loadRecentPosts() {
+        const container = document.getElementById('recent-posts');
+        try {
+            const res = await fetch('https://blog.safnet.com/rss.xml');
+            if (!res.ok) throw new Error('fetch failed');
+            const text = await res.text();
+            const xml = new DOMParser().parseFromString(text, 'text/xml');
+            const items = Array.from(xml.querySelectorAll('item')).slice(0, 5);
+            if (items.length === 0) throw new Error('no items');
+            const ul = document.createElement('ul');
+            items.forEach(item => {
+                const title = item.querySelector('title').textContent;
+                const link = item.querySelector('link').textContent;
+                const li = document.createElement('li');
+                const a = document.createElement('a');
+                a.href = link.trim();
+                a.textContent = title;
+                li.appendChild(a);
+                ul.appendChild(li);
+            });
+            container.replaceWith(ul);
+        } catch {
+            container.innerHTML = 'Visit <a href="https://blog.safnet.com">blog.safnet.com</a> for recent posts.';
+        }
+    })();
+    </script>
 </body>
 </html>
