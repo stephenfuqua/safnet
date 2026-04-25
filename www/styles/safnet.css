@@ -154,3 +154,79 @@ blockquote {
 li {
     margin-bottom: 1rem;
 }
+
+/* =====================
+   Site Header
+   ===================== */
+.site-header {
+    background-color: #1b1b1d;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0.75rem 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.header-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    text-decoration: none;
+    color: white;
+    flex: 1;
+}
+
+.header-brand:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.header-logo {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.header-name {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.header-nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.header-nav a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.header-nav a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.header-social {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+.header-social a {
+    color: #e0e0e0;
+    display: flex;
+    align-items: center;
+}
+
+.header-social a:hover {
+    color: white;
+}
