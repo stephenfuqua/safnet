@@ -87,7 +87,16 @@
                 const title = item.querySelector('title')?.textContent ?? '(untitled)';
                 const link = item.querySelector('link')?.textContent;
                 if (!link) return;
+                const pubDateText = item.querySelector('pubDate')?.textContent;
+                const date = pubDateText ? new Date(pubDateText) : null;
                 const li = document.createElement('li');
+                if (date && !isNaN(date)) {
+                    const time = document.createElement('time');
+                    time.dateTime = date.toISOString().slice(0, 10);
+                    time.textContent = date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+                    li.appendChild(time);
+                    li.append(' — ');
+                }
                 const a = document.createElement('a');
                 a.href = link.trim();
                 a.textContent = title;
